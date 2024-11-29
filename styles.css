@@ -1,0 +1,115 @@
+/* Загальні стилі */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Хедер */
+header {
+    width: 1920px;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-container {
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-login {
+    width: 144px;
+    height: 48px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-register {
+    width: 144px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00ff00;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Блок вибору категорій */
+.categories {
+    margin: 40px auto;
+    width: 1800px; /* Центрування блоку */
+}
+
+.categories h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 кнопки в ряд */
+    gap: 20px; /* Відстань між кнопками */
+}
+
+.category-grid button {
+    width: 586px;
+    height: 80px;
+    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-grid button:hover {
+    background-color: #dcdcdc;
+}
+
+.ad-banner {
+    width: 1800px;
+    height: 300px;
+    background-color: #cccccc; /* Сірий колір */
+    color: #000; /* Чорний текст */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 300px; /* Вирівнювання тексту по центру */
+    border: 1px solid #999; /* Рамка для візуалізації */
+    box-sizing: border-box;
+    margin-left: 60px; 
+}
